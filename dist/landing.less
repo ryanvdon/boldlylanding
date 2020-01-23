@@ -29,6 +29,17 @@
 @l-green : #dbf1b3;
 @dark-grey : #444444;
 
+@Cobalt : #3023AE;
+@Violet : #9723AE;
+@Magenta : #E7086D;
+@Charcoal : #424242;
+@Pear : #6D991D;
+@Tangerine : #E65C00;
+@Cerulean : #29A6D4;
+
+
+
+
 * {
   box-sizing: border-box;
   font-smoothing: antialiased;
@@ -343,8 +354,8 @@ footer {
 }
 
 .section-1 {
-  background: rgb(151,35,174);
-  background: linear-gradient(214deg, rgba(151,35,174,1) 0%, rgba(48,35,174,1) 100%); 
+  background: @Violet;
+  background: linear-gradient(214deg, @Violet 0%, @Cobalt 100%); 
   display: flex;
   justify-content: left;
   align-content: space-between;
@@ -417,6 +428,11 @@ footer {
 .academy-header {
   height: 20vh;
   background: linear-gradient(214deg, @darkblue 0%, @darkgreen 100%); 
+}
+
+.section-2 {
+  height: 50vh;
+  background: linear-gradient(214deg, @Magenta 0%, @Tangerine 100%); 
 }
 
 .small-logo {

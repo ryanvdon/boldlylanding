@@ -68,7 +68,7 @@ $('.nav-item').mouseleave(function() {
 
 
 $('#nav-academy').click(function() {
-  $('.section-1').addClass('academy-header');
+  $('.section-1').addClass('section-2');
   $('.logo-svg').addClass('small-logo');
 });
 
