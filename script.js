@@ -1,7 +1,7 @@
 $().ready(function() {
 //Function to animate letters individually on a delay
 
-window.addEventListener('load', function(event) {
+//window.addEventListener('load', function(event) {
   console.log('Hi');
 
   setTimeout(function() {
@@ -23,7 +23,7 @@ window.addEventListener('load', function(event) {
     $('#logo-y').addClass('pulseIn');
   }, 840);
 
-});
+//});
 
 
 $('.nav').hover(function() {
