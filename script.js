@@ -134,9 +134,9 @@ function check_if_in_view() {
   });
 }
 
-$window.on('resize', check_if_in_view);
-$('.gradient-bg').on('scroll', check_if_in_view);
-$window.trigger('scroll');
+//$window.on('resize', check_if_in_view);
+//$('.gradient-bg').on('scroll', check_if_in_view);
+//$window.trigger('scroll');
 
 
 
