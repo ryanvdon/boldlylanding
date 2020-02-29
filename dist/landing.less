@@ -601,6 +601,35 @@ footer {
   background: linear-gradient(214deg, @darkblue 0%, @darkgreen 100%); 
 }
 
+.follow-us {
+  bottom: 20;
+  right: -30;
+  position: fixed;
+  z-index: 120;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 0 70px 0 20px;
+  background-color: @Magenta;
+  border-radius: 25px;
+  color: @white;
+  -webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.follow-us:hover {
+  transform: scale(1.05);
+}
+
+.ig-icon {
+  width: 30px;
+  height: 30px;
+}
+
+
 @media screen and (max-width: 1022px) {
   
   .logo-svg {
